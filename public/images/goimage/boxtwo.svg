@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="272" height="291" viewBox="0 0 272 291">
+  <defs>
+    <filter id="Path_56424" x="0" y="0" width="272" height="291" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#727272" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <path id="Path_38643" data-name="Path 38643" d="M21.479,75.26l7.882,3.506v48.913H21.479ZM50.845,46.166l7.877,3.507v78.005H50.845Zm-46.309-9.1L29.362,48.126V72.815L16.947,67.287v60.391H4.537Zm24.829,5.1L0,29.093V133.283H33.9V7.978L58.723,19.033V43.721l-12.41-5.528v95.089H63.261V51.694l12.414,5.528v76.061h4.533v-80L63.261,45.743V15.1L29.366,0Z" fill="#054877"/>
+    </clipPath>
+    <filter id="Path_38651" x="124.11" y="40.471" width="28.828" height="35.1" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_10_1" data-name="Component 10 – 1" transform="translate(9 6)">
+    <g id="Group_5805" data-name="Group 5805" transform="translate(-833.001 -931)">
+      <g id="Group_5667" data-name="Group 5667" transform="translate(833.393 930.685)">
+        <g transform="matrix(1, 0, 0, 1, -9.39, -5.68)" filter="url(#Path_56424)">
+          <path id="Path_56424-2" data-name="Path 56424" d="M25,0H229a25,25,0,0,1,25,25V248a25,25,0,0,1-25,25H25A25,25,0,0,1,0,248V25A25,25,0,0,1,25,0Z" transform="translate(9 6)" fill="#fff" opacity="0.8"/>
+        </g>
+        <g id="Group_5664" data-name="Group 5664" transform="translate(80.819 23.679)">
+          <text id="_220_" data-name="220+" transform="translate(7.789 171.636)" fill="#054877" font-size="37" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">220</tspan><tspan y="0" font-size="21.582" baseline-shift="12.332099914550781">+</tspan></text>
+          <text id="Successful_Projects" data-name="Successful
+Projects" transform="translate(44 196.542)" fill="#054877" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="-44" y="0">Successful</tspan><tspan x="-32" y="24">Projects</tspan></text>
+          <g id="Group_5661" data-name="Group 5661" transform="translate(6.242 0)">
+            <g id="Group_5657" data-name="Group 5657" transform="translate(0 0)">
+              <g id="Group_5656" data-name="Group 5656" clip-path="url(#clip-path)">
+                <path id="Path_38644" data-name="Path 38644" d="M4.1,3.267,112.145,0l-4.1,150.546L0,153.813Z" transform="translate(-33.385 6.158) rotate(-14.448)" fill="#054877"/>
+              </g>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, -96.45, -29.36)" filter="url(#Path_38651)">
+              <path id="Path_38651-2" data-name="Path 38651" d="M94.045,60.675l-3.24,4.113-1.3-1.656,2.457-3.217,0-2.371L90.8,59.065l-1.2-1.447,1.671-2.173V53.081l-.849,1.1-1.458-1.894,0,2.359.552.717-.858,1.115L87.33,54.895V57.15L89.9,60.24l-1.314,1.721-3.474-4.425-.026,2.3,4.8,6.115L88.662,67.51l-5.439-6.837V63L88.1,69.119a.721.721,0,0,0,.564.272h0a.72.72,0,0,0,.564-.275l4.82-6.129Z" transform="translate(49.89 -5.82)" fill="#054877"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Rectangle_272" data-name="Rectangle 272" transform="translate(842 941)" fill="none" stroke="#c6b256" stroke-width="0.5">
+        <rect width="236" height="253" rx="25" stroke="none"/>
+        <rect x="0.25" y="0.25" width="235.5" height="252.5" rx="24.75" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
