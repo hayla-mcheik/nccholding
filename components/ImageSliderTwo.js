@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import Image from 'next/legacy/image'
 import 'swiper/css/navigation';
 
 const ImageSliderTwo = () => {
@@ -10,6 +9,24 @@ const ImageSliderTwo = () => {
         loop: true,
         autoplay: {
           delay: 3000,
+        },
+        breakpoints: { // <-- Corrected syntax with curly braces
+          300: {
+            slidesPerView: 1,
+          },
+          300: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          992: {
+            slidesPerView: 3,
+          },
+          1200: {
+            slidesPerView: 4,
+          },
+
         },
         navigation: {
           nextEl: '.swiper-button-next',
@@ -29,7 +46,7 @@ const ImageSliderTwo = () => {
         <div class="card-card-shadow">  
         <div className="card">
  <div className="card-header">
- <Image src="/images/goimage/subone.svg" alt="Image 1" width={100} height={100}  />
+ <img src="/images/goimage/subone.svg" alt="img 1" width={100} height={100}  />
  </div>
  <div class="card-body">
  <div class="card-description">
@@ -46,7 +63,7 @@ const ImageSliderTwo = () => {
         <div class="card-card-shadow">  
         <div className="card">
  <div className="card-header">
- <Image src="/images/goimage/subtwo.svg" alt="Image 1" width={100} height={100}  />
+ <img src="/images/goimage/subtwo.svg" alt="img 1" width={100} height={100}  />
  </div>
  <div class="card-body">
  <div class="card-description">
@@ -62,7 +79,7 @@ const ImageSliderTwo = () => {
         <div class="card-card-shadow">  
         <div className="card">
  <div className="card-header">
- <Image src="/images/goimage/subthree.svg" alt="Image 1" width={100} height={100}  />
+ <img src="/images/goimage/subthree.svg" alt="img 1" width={100} height={100}  />
  </div>
  <div class="card-body">
  <div class="card-description">
@@ -78,7 +95,7 @@ const ImageSliderTwo = () => {
         <div class="card-card-shadow">  
         <div className="card">
  <div className="card-header">
- <Image src="/images/goimage/subfour.svg" alt="Image 1" width={100} height={100}  />
+ <img src="/images/goimage/subfour.svg" alt="img 1" width={100} height={100}  />
  </div>
  <div class="card-body">
  <div class="card-description">

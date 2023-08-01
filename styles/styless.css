@@ -96,6 +96,15 @@ font-size: 50px;
   color: white;
   font-size: 14px;
 }
+.slider-services .swiper-button-next {
+  left: 3%;
+}
+.swiper-button-view{
+  color: var(--swiper-navigation-color,var(--swiper-theme-color));
+  left: 8% !important;
+  position: absolute;
+  align-items: center;
+}
 }
 @media (max-width: 768px){
   .nav-elements {
@@ -179,6 +188,18 @@ width: 60%;
 .footer-navigations{
   display: flex;
   flex-direction: column;
+}
+.slider-services .swiper-button-next {
+  left: 15%;
+}
+.swiper-button-view{
+  color: var(--swiper-navigation-color,var(--swiper-theme-color));
+  left: 35% !important;
+  position: absolute;
+  align-items: center;
+}
+.home-title-desc , .home-title-client , .footer-desc h2{
+  margin-top: 10%;
 }
 }
 
@@ -487,12 +508,7 @@ font-weight: 600;
   top: var(--swiper-navigation-top-offset,100%) !important;
   color: var(--swiper-navigation-color,var(--swiper-theme-color));
 }
-.swiper-button-view{
-  color: var(--swiper-navigation-color,var(--swiper-theme-color));
-  left: 8% !important;
-  position: absolute;
-  align-items: center;
-}
+
 .swiper-button-view h4 {
   font-size: 14px;
   text-decoration: underline;
@@ -501,9 +517,7 @@ font-weight: 600;
   top: var(--swiper-navigation-top-offset,100%) !important;
   color: var(--swiper-navigation-color,var(--swiper-theme-color));
 }
-.slider-services .swiper-button-next {
-  left: 3%;
-}
+
 .imag-slider-overlay{
   position: relative;
   width: 100%;
@@ -581,7 +595,6 @@ align-items: center;
 .clients-section{
   background-image: url('/images/goimage/client.png');
   width: 100%;
-  height: 100vh;
   background-size: cover;
 }
 .card-header-latest span{

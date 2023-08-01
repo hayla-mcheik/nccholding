@@ -6,7 +6,7 @@ const Footer = () => {
     <div>
       <div className="footer">
       <div className="footer-subscribe">
-      <div className="container">
+      <div>
       <div className="footer-desc">
       <h2>STAY IN THE KNOW</h2>
       <p>Register for our email newsletter to get the freshest takes, straight to your inbox.</p>
@@ -15,7 +15,7 @@ const Footer = () => {
 
 <form action="POST"><div class="text-white">
 <div class="form-group text-white">
-<div class="d-flex flex-column flex-sm-row flex-column-mobile gap-2">
+<div class="d-flex  flex-sm-row gap-2">
 <HiOutlineMailOpen />
 <span><p class="pt-3 text-white">Email</p></span>
 <div class="mt-2"><div class="form-group form-group-transparent"><input type="email" class="form-control" /></div></div>

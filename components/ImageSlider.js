@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Image from 'next/legacy/image'
+
 import 'swiper/css/navigation';
 
 const ImageSlider = () => {
@@ -10,6 +10,9 @@ const ImageSlider = () => {
         loop: true,
         autoplay: false,
         breakpoints: { // <-- Corrected syntax with curly braces
+          300: {
+            slidesPerView: 1,
+          },
           767: {
             slidesPerView: 2,
           },
@@ -43,7 +46,7 @@ const ImageSlider = () => {
       <div className="swiper-wrapper">
         <div className="swiper-slide">
         <div class="imag-slider-overlay">
-          <Image src="/images/goimage/serviceone.png" alt="Image 1" width={500} height={500}  />
+          <img src="/images/goimage/serviceone.png" alt="img 1" width={500} height={500}  />
           <div class="text-service-center">
           <h2>HOSPITALITY CATERING</h2>
           </div>
@@ -51,7 +54,7 @@ const ImageSlider = () => {
         </div>
         <div className="swiper-slide">
         <div class="imag-slider-overlay">
-          <Image src="/images/goimage/servicetwo.png" alt="Image 1" width={500} height={500}  />
+          <img src="/images/goimage/servicetwo.png" alt="img 1" width={500} height={500}  />
           <div class="text-service-center">
           <h2>HOSPITALITY CATERING</h2>
           </div>
@@ -59,7 +62,7 @@ const ImageSlider = () => {
         </div>
         <div className="swiper-slide">
         <div class="imag-slider-overlay">
-          <Image src="/images/goimage/servicethree.png" alt="Image 1" width={500} height={500}  />
+          <img src="/images/goimage/servicethree.png" alt="img 1" width={500} height={500}  />
           <div class="text-service-center">
           <h2>HOSPITALITY CATERING</h2>
           </div>
@@ -67,26 +70,16 @@ const ImageSlider = () => {
         </div>
         <div className="swiper-slide">
         <div class="imag-slider-overlay">
-          <Image src="/images/goimage/servicefour.png" alt="Image 1" width={500} height={500}  />
-          <div class="text-service-center">
-          <h2>HOSPITALITY CATERING</h2>
-          </div>
-          </div>
-        </div>
-
-        <div className="swiper-slide">
-        <div class="imag-slider-overlay">
-          <Image src="/images/goimage/servicefour.png" alt="Image 1" width={500} height={500}  />
+          <img src="/images/goimage/servicefour.png" alt="img 1" width={500} height={500}  />
           <div class="text-service-center">
           <h2>HOSPITALITY CATERING</h2>
           </div>
           </div>
         </div>
 
-
         <div className="swiper-slide">
         <div class="imag-slider-overlay">
-          <Image src="/images/goimage/servicefour.png" alt="Image 1" width={500} height={500}  />
+          <img src="/images/goimage/servicefour.png" alt="img 1" width={500} height={500}  />
           <div class="text-service-center">
           <h2>HOSPITALITY CATERING</h2>
           </div>
@@ -96,7 +89,17 @@ const ImageSlider = () => {
 
         <div className="swiper-slide">
         <div class="imag-slider-overlay">
-          <Image src="/images/goimage/servicefour.png" alt="Image 1" width={500} height={500}  />
+          <img src="/images/goimage/servicefour.png" alt="img 1" width={500} height={500}  />
+          <div class="text-service-center">
+          <h2>HOSPITALITY CATERING</h2>
+          </div>
+          </div>
+        </div>
+
+
+        <div className="swiper-slide">
+        <div class="imag-slider-overlay">
+          <img src="/images/goimage/servicefour.png" alt="img 1" width={500} height={500}  />
           <div class="text-service-center">
           <h2>HOSPITALITY CATERING</h2>
           </div>

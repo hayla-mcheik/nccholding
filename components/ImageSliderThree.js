@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import Image from 'next/legacy/image'
 import 'swiper/css/navigation';
 
 const ImageSliderThree = () => {
@@ -10,6 +9,21 @@ const ImageSliderThree = () => {
         loop: true,
         autoplay: {
           delay: 3000,
+        },
+        breakpoints: { // <-- Corrected syntax with curly braces
+          300: {
+            slidesPerView: 1,
+          },
+          767: {
+            slidesPerView: 2,
+          },
+          992: {
+            slidesPerView: 3,
+          },
+          1200: {
+            slidesPerView: 4,
+          },
+  
         },
         navigation: {
           nextEl: '.swiper-button-next',
@@ -26,127 +40,99 @@ const ImageSliderThree = () => {
       <div className="swiper-wrapper">
       <div class="container">
       <div class="row">
-      <div class="col-md-2"> 
+      <div class="col-md-2 col-6"> 
         <div class="client-logo">
-        <Image src="/images/goimage/clientone.svg" alt="Image 1" width={100} height={100}  />
+        <img src="/images/goimage/clientone.svg" alt="img 1" width={100} height={100}  />
         </div>
         </div>
 
-        <div class="col-md-2"> 
+        <div class="col-md-2  col-6"> 
         <div class="client-logo">
-        <Image src="/images/goimage/clientone.svg" alt="Image 1" width={100} height={100}  />
+        <img src="/images/goimage/clientone.svg" alt="img 1" width={100} height={100}  />
         </div>
         </div>
-        <div class="col-md-2"> 
+        <div class="col-md-2  col-6"> 
         <div class="client-logo">
-        <Image src="/images/goimage/clientone.svg" alt="Image 1" width={100} height={100}  />
+        <img src="/images/goimage/clientone.svg" alt="img 1" width={100} height={100}  />
         </div>
         </div>
-        <div class="col-md-2"> 
+        <div class="col-md-2 col-6"> 
         <div class="client-logo">
-        <Image src="/images/goimage/clientone.svg" alt="Image 1" width={100} height={100}  />
+        <img src="/images/goimage/clientone.svg" alt="img 1" width={100} height={100}  />
         </div>
         </div>
-        <div class="col-md-2"> 
+        <div class="col-md-2 col-6"> 
         <div class="client-logo">
-        <Image src="/images/goimage/clientone.svg" alt="Image 1" width={100} height={100}  />
+        <img src="/images/goimage/clientone.svg" alt="img 1" width={100} height={100}  />
         </div>
         </div>
-        <div class="col-md-2"> 
+        <div class="col-md-2 col-6"> 
         <div class="client-logo">
-        <Image src="/images/goimage/clientone.svg" alt="Image 1" width={100} height={100}  />
+        <img src="/images/goimage/clientone.svg" alt="img 1" width={100} height={100}  />
         </div>
         </div>
-        <div class="col-md-2"> 
+        <div class="col-md-2 col-6"> 
         <div class="client-logo">
-        <Image src="/images/goimage/clientone.svg" alt="Image 1" width={100} height={100}  />
+        <img src="/images/goimage/clientone.svg" alt="img 1" width={100} height={100}  />
         </div>
         </div>
-        <div class="col-md-2"> 
+        <div class="col-md-2 col-6"> 
         <div class="client-logo">
-        <Image src="/images/goimage/clientone.svg" alt="Image 1" width={100} height={100}  />
+        <img src="/images/goimage/clientone.svg" alt="img 1" width={100} height={100}  />
         </div>
         </div>
-        <div class="col-md-2"> 
+        <div class="col-md-2 col-6"> 
         <div class="client-logo">
-        <Image src="/images/goimage/clientone.svg" alt="Image 1" width={100} height={100}  />
+        <img src="/images/goimage/clientone.svg" alt="img 1" width={100} height={100}  />
         </div>
         </div>
-        <div class="col-md-2"> 
+        <div class="col-md-2 col-6"> 
         <div class="client-logo">
-        <Image src="/images/goimage/clientone.svg" alt="Image 1" width={100} height={100}  />
+        <img src="/images/goimage/clientone.svg" alt="img 1" width={100} height={100}  />
         </div>
         </div>
-        <div class="col-md-2"> 
+        <div class="col-md-2 col-6"> 
         <div class="client-logo">
-        <Image src="/images/goimage/clientone.svg" alt="Image 1" width={100} height={100}  />
+        <img src="/images/goimage/clientone.svg" alt="img 1" width={100} height={100}  />
         </div>
         </div>
-        <div class="col-md-2"> 
+        <div class="col-md-2 col-6"> 
         <div class="client-logo">
-        <Image src="/images/goimage/clientone.svg" alt="Image 1" width={100} height={100}  />
+        <img src="/images/goimage/clientone.svg" alt="img 1" width={100} height={100}  />
         </div>
         </div>
-        <div class="col-md-2"> 
+        <div class="col-md-2 col-6"> 
         <div class="client-logo">
-        <Image src="/images/goimage/clientone.svg" alt="Image 1" width={100} height={100}  />
+        <img src="/images/goimage/clientone.svg" alt="img 1" width={100} height={100}  />
         </div>
         </div>
-        <div class="col-md-2"> 
+        <div class="col-md-2 col-6"> 
         <div class="client-logo">
-        <Image src="/images/goimage/clientone.svg" alt="Image 1" width={100} height={100}  />
+        <img src="/images/goimage/clientone.svg" alt="img 1" width={100} height={100}  />
         </div>
         </div>
-        <div class="col-md-2"> 
+        <div class="col-md-2 col-6"> 
         <div class="client-logo">
-        <Image src="/images/goimage/clientone.svg" alt="Image 1" width={100} height={100}  />
+        <img src="/images/goimage/clientone.svg" alt="img 1" width={100} height={100}  />
         </div>
         </div>
-        <div class="col-md-2"> 
+        <div class="col-md-2 col-6"> 
         <div class="client-logo">
-        <Image src="/images/goimage/clientone.svg" alt="Image 1" width={100} height={100}  />
+        <img src="/images/goimage/clientone.svg" alt="img 1" width={100} height={100}  />
         </div>
         </div>
-        <div class="col-md-2"> 
+        <div class="col-md-2 col-6"> 
         <div class="client-logo">
-        <Image src="/images/goimage/clientone.svg" alt="Image 1" width={100} height={100}  />
+        <img src="/images/goimage/clientone.svg" alt="img 1" width={100} height={100}  />
         </div>
         </div>
-        <div class="col-md-2"> 
+        <div class="col-md-2 col-6"> 
         <div class="client-logo">
-        <Image src="/images/goimage/clientone.svg" alt="Image 1" width={100} height={100}  />
+        <img src="/images/goimage/clientone.svg" alt="img 1" width={100} height={100}  />
         </div>
         </div>
-        <div class="col-md-2"> 
-        <div class="client-logo">
-        <Image src="/images/goimage/clientone.svg" alt="Image 1" width={100} height={100}  />
-        </div>
-        </div>
-        <div class="col-md-2"> 
-        <div class="client-logo">
-        <Image src="/images/goimage/clientone.svg" alt="Image 1" width={100} height={100}  />
-        </div>
-        </div>
-        <div class="col-md-2"> 
-        <div class="client-logo">
-        <Image src="/images/goimage/clientone.svg" alt="Image 1" width={100} height={100}  />
-        </div>
-        </div>
-        <div class="col-md-2"> 
-        <div class="client-logo">
-        <Image src="/images/goimage/clientone.svg" alt="Image 1" width={100} height={100}  />
-        </div>
-        </div>
-        <div class="col-md-2"> 
-        <div class="client-logo">
-        <Image src="/images/goimage/clientone.svg" alt="Image 1" width={100} height={100}  />
-        </div>
-        </div>
-        <div class="col-md-2"> 
-        <div class="client-logo">
-        <Image src="/images/goimage/clientone.svg" alt="Image 1" width={100} height={100}  />
-        </div>
-        </div>
+ 
+
 
         </div>  
 </div>

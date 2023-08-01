@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import Image from 'next/legacy/image'
 import 'swiper/css/navigation';
 
 const ImageSliderFour = () => {
@@ -10,6 +9,21 @@ const ImageSliderFour = () => {
         loop: true,
         autoplay: {
           delay: 3000,
+        },
+        breakpoints: { // <-- Corrected syntax with curly braces
+          300: {
+            slidesPerView: 1,
+          },
+          767: {
+            slidesPerView: 2,
+          },
+          992: {
+            slidesPerView: 3,
+          },
+          1200: {
+            slidesPerView: 4,
+          },
+ 
         },
         navigation: {
           nextEl: '.swiper-button-next',
@@ -28,7 +42,7 @@ const ImageSliderFour = () => {
         <div class="card-card-shadow">  
         <div className="card">
  <div className="card-header card-header-latest">
- <Image src="/images/goimage/latest.png" alt="Image 1" width={300} height={200}  />
+ <img src="/images/goimage/latest.png" alt="img 1" className="img-fluid" />
  </div>
  <div class="card-body">
  <div class="card-description">
@@ -45,7 +59,7 @@ const ImageSliderFour = () => {
         <div class="card-card-shadow">  
         <div className="card">
  <div className="card-header">
- <Image src="/images/goimage/latest.png" alt="Image 1" width={300} height={200}  />
+ <img src="/images/goimage/latest.png" alt="img 1" className="img-fluid" />
  </div>
  <div class="card-body">
  <div class="card-description">
@@ -61,7 +75,7 @@ const ImageSliderFour = () => {
         <div class="card-card-shadow">  
         <div className="card">
  <div className="card-header">
- <Image src="/images/goimage/latest.png" alt="Image 1" width={300} height={200}  />
+ <img src="/images/goimage/latest.png" alt="img 1" className="img-fluid" />
  </div>
  <div class="card-body">
  <div class="card-description">
@@ -77,7 +91,7 @@ const ImageSliderFour = () => {
         <div class="card-card-shadow">  
         <div className="card">
  <div className="card-header">
- <Image src="/images/goimage/latest.png" alt="Image 1" width={300} height={200}  />
+ <img src="/images/goimage/latest.png" alt="img 1" className="img-fluid"  />
  </div>
  <div class="card-body">
  <div class="card-description">
