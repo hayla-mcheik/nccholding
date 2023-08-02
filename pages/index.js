@@ -1,3 +1,4 @@
+import {useEffect} from 'react'
 import Head from 'next/head';
 import Navbar from '../components/Navbar'
 import {BiLogoFacebook , BiLogoLinkedin , BiLogoTwitter} from 'react-icons/bi'
@@ -6,7 +7,13 @@ import ImageSliderTwo from '../components/ImageSliderTwo';
 import ImageSliderFour from '../components/ImageSliderFour';
 import ImageSliderThree from '../components/ImageSliderThree';
 import Footer from '../components/Footer';
+import AOS from 'aos'
 export default function Home() {
+  useEffect(() => {
+    AOS.init({
+      // Optional configuration options (check AOS documentation for more)
+    });
+  }, []);
   return (
     <div>
       <Head>
@@ -19,7 +26,8 @@ export default function Home() {
 <div className="container">
 <div className="row">
 <div className="landing">
-<div className="text-landing">
+<div className="text-landing"  data-aos="fade-up"
+     data-aos-duration="1000">
 <h2>LEADERS 
 IN QUALITY 
 PIONEERS IN 
@@ -29,7 +37,8 @@ OUR SPECIALTIES</h2>
 </div>
 </div>
 <div className="box-landing mt-5">
-<div class="row">
+<div class="row" data-aos="zoom-in"
+     data-aos-duration="1000">
 <div class="col-md-8 col-12 d-md-flex d-content mx-auto">
 <div class="col-md-3 col-6">
 <div class="box-image">
@@ -62,7 +71,8 @@ OUR SPECIALTIES</h2>
 </div>
 </div>
 
-<div class="social-landing position-absolute d-md-block d-none ">
+<div class="social-landing position-absolute d-md-block d-none " data-aos="fade-up"
+     data-aos-duration="1000">
 <div class="social-media d-block fixed">
 <div class="social-media-icon">
 <BiLogoTwitter />
@@ -89,7 +99,8 @@ OUR SPECIALTIES</h2>
 <div class="container">
 <div class="row">
 <div class="col-md-7 col-12">
-<div class="description-home-about mt-5">
+<div class="description-home-about mt-5"  data-aos="fade-up"
+     data-aos-duration="1000">
 <h2 >WHO WE ARE</h2>
 <p>
 Since 1990, NCC Holding has been at the forefront of life support services across the UAE & the Middle East, with our owned companies in Kuwait, Iraq and Kingdom of Saudi Arabia we try to expand our partnerships and experiences to grow our market share. 
@@ -100,24 +111,25 @@ We are pioneers in our specialties including: Industrial & Corporate Catering, F
 </div>
 </div>
 <div class="col-md-5 col-12">
-<div class="box-about">
+<div class="box-about" data-aos="fade-up"
+     data-aos-duration="1000">
 <div class="row mt-5 align-items-center">
-<div class="col-6">
+<div class="col-6 mt-4">
 <div class="box-about-img">
 <img src="/images/goimage/aboutimgone.png"  className="img-fluid"/>
 </div>
 </div>
-<div class="col-6">
+<div class="col-6 mt-4">
 <div class="box-about-img">
 <img src="/images/goimage/aboutimgtwo.png"  className="img-fluid"/>
 </div>
 </div>
-<div class="col-6">
+<div class="col-6 mt-4">
 <div class="box-about-img">
 <img src="/images/goimage/aboutimgthree.png"  className="img-fluid"/>
 </div>
 </div>
-<div class="col-6">
+<div class="col-6 mt-4">
 <div class="box-about-img">
 <img src="/images/goimage/aboutimgfour.png"  className="img-fluid"/>
 </div>
@@ -130,17 +142,19 @@ We are pioneers in our specialties including: Industrial & Corporate Catering, F
 </div>
 </section>
 
-<section>
+<section >
 <div class="slider-services mt-40 mb-40">
 <div class="container">
-<div class="row">
+<div class="row" data-aos="fade-up"
+     data-aos-duration="1000">
 <div class="home-title-desc">
      <h2>OUR SERVICES</h2>
      <p>Our main goal is to become a perfect partner for our client’s businesses & to adapt quickly to evolving new market developments.</p>
       </div>
       </div>
       </div>
-      <div>
+      <div data-aos="fade-up"
+     data-aos-duration="1000">
       <ImageSlider />
   </div>
 </div>
@@ -151,14 +165,16 @@ We are pioneers in our specialties including: Industrial & Corporate Catering, F
 <section>
 <div class="slider-services slider-two mt-40 mb-40">
 <div class="container">
-<div class="row">
+<div class="row" data-aos="fade-up"
+     data-aos-duration="1000">
 <div class="home-title-desc">
-     <h2>OUR SERVICES</h2>
+     <h2>OUR SUBSIDIARIES</h2>
      <p>Our main goal is to become a perfect partner for our client’s businesses & to adapt quickly to evolving new market developments.</p>
       </div>
       </div>
       </div>
-      <div className="container">
+      <div className="container" data-aos="fade-up"
+     data-aos-duration="1000">
       <ImageSliderTwo />
   </div>
 </div>
@@ -166,13 +182,15 @@ We are pioneers in our specialties including: Industrial & Corporate Catering, F
 </section>
 
 <section>
-<div class="slider-services  clients-section mt-40 ">
+<div class="slider-services  clients-section mt-40 pb-40" >
 <div class="container">
-<div class="home-title-client pt-50">
+<div class="home-title-client pt-50" data-aos="fade-up"
+     data-aos-duration="1000">
      <h2>OUR CLIENTS</h2>
       </div>
 </div>
-      <div className="container">
+      <div className="container" data-aos="fade-up"
+     data-aos-duration="1000">
       <ImageSliderThree />
   </div>
 </div>
@@ -182,13 +200,15 @@ We are pioneers in our specialties including: Industrial & Corporate Catering, F
 <div class="slider-services slider-two mt-40 mb-40">
 <div class="container">
 <div class="row">
-<div class="home-title-desc">
+<div class="home-title-desc" data-aos="fade-up"
+     data-aos-duration="1000">
      <h2>LATEST NEWS</h2>
      <p>Our main goal is to become a perfect partner for our client’s businesses & to adapt quickly to evolving new market developments.</p>
       </div>
       </div>
       </div>
-      <div className="container">
+      <div className="container" data-aos="fade-up"
+     data-aos-duration="1000">
       <ImageSliderFour />
   </div>
 </div>

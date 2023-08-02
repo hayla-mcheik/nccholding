@@ -11,7 +11,12 @@
 .navbar {
   height: 15vh;
   background-color: #000;
-  position: relative;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all .5s linear;
+  z-index: 999;
 
 }
 
@@ -121,13 +126,15 @@
     position: fixed;
     top: 0;
     width: 100%;
+    transition: all .2s linear;
+    height: 15vh;
   }
 
   nav.sticky{
-background-color: white;
-
+background-color: #000;
     top: 0;
     z-index: 100;
+    height: 15vh;
   }
 
 
@@ -140,3 +147,5 @@ background-color: white;
     }
   }
 
+
+  

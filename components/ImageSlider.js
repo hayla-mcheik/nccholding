@@ -30,8 +30,8 @@ const ImageSlider = () => {
           },
         },
         navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
+          nextEl: '.swiper-button-nextone',
+          prevEl: '.swiper-button-prevone',
         },
         // Add other Swiper configuration options as needed
       });
@@ -107,16 +107,92 @@ const ImageSlider = () => {
         </div>
 
 
+        <div className="swiper-slide">
+        <div class="imag-slider-overlay">
+          <img src="/images/goimage/servicefour.png" alt="img 1" width={500} height={500}  />
+          <div class="text-service-center">
+          <h2>HOSPITALITY CATERING</h2>
+          </div>
+          </div>
+        </div>
+
+
+        <div className="swiper-slide">
+        <div class="imag-slider-overlay">
+          <img src="/images/goimage/servicefour.png" alt="img 1" width={500} height={500}  />
+          <div class="text-service-center">
+          <h2>HOSPITALITY CATERING</h2>
+          </div>
+          </div>
+        </div>
+
+        <div className="swiper-slide">
+        <div class="imag-slider-overlay">
+          <img src="/images/goimage/servicefour.png" alt="img 1" width={500} height={500}  />
+          <div class="text-service-center">
+          <h2>HOSPITALITY CATERING</h2>
+          </div>
+          </div>
+        </div>
+
+        <div className="swiper-slide">
+        <div class="imag-slider-overlay">
+          <img src="/images/goimage/servicefour.png" alt="img 1" width={500} height={500}  />
+          <div class="text-service-center">
+          <h2>HOSPITALITY CATERING</h2>
+          </div>
+          </div>
+        </div>
+
+        <div className="swiper-slide">
+        <div class="imag-slider-overlay">
+          <img src="/images/goimage/servicefour.png" alt="img 1" width={500} height={500}  />
+          <div class="text-service-center">
+          <h2>HOSPITALITY CATERING</h2>
+          </div>
+          </div>
+        </div>
+
+        <div className="swiper-slide">
+        <div class="imag-slider-overlay">
+          <img src="/images/goimage/servicefour.png" alt="img 1" width={500} height={500}  />
+          <div class="text-service-center">
+          <h2>HOSPITALITY CATERING</h2>
+          </div>
+          </div>
+        </div>
+
+        <div className="swiper-slide">
+        <div class="imag-slider-overlay">
+          <img src="/images/goimage/servicefour.png" alt="img 1" width={500} height={500}  />
+          <div class="text-service-center">
+          <h2>HOSPITALITY CATERING</h2>
+          </div>
+          </div>
+        </div>
+
+        <div className="swiper-slide">
+        <div class="imag-slider-overlay">
+          <img src="/images/goimage/servicefour.png" alt="img 1" width={500} height={500}  />
+          <div class="text-service-center">
+          <h2>HOSPITALITY CATERING</h2>
+          </div>
+          </div>
+        </div>
+
+
 
         {/* Add more slides here */}
       </div>
       <div className="container position-relative">
       <div className="swiper-button pb-5 position-relative">
-      <div className="swiper-button-prev pb-5">
-        <img src="/images/goimage/prev.png" />
+      <div className="swiper-button-prev swiper-button-prevone pb-5">
+        <img className="img-one" src="/images/goimage/prev.png" />
+        <img className="img-hover" src="/images/goimage/prevhover.png" />
       </div>
-      <div className="swiper-button-next pb-5">
-      <img src="/images/goimage/next.png" />
+      <div className="swiper-button-next swiper-button-nextone pb-5">
+      <img className="img-one"  src="/images/goimage/next.png" />
+      <img className="img-hover" src="/images/goimage/nexthover.png" />
       </div>
       <div className=" swiper-button-next swiper-button-view pb-5">
  <h4>View All</h4>

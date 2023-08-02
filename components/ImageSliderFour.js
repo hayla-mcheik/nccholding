@@ -1,17 +1,16 @@
 import React, { useEffect } from "react";
 import 'swiper/css/navigation';
-
+import Link from 'next/link'
 const ImageSliderFour = () => {
   useEffect(() => {
     if (typeof window.Swiper !== "undefined") {
       const swiper = new window.Swiper(".swiper-containerr", {
-        slidesPerView: 4,
         loop: true,
         autoplay: {
           delay: 3000,
         },
         breakpoints: { // <-- Corrected syntax with curly braces
-          300: {
+          290: {
             slidesPerView: 1,
           },
           767: {
@@ -26,8 +25,8 @@ const ImageSliderFour = () => {
  
         },
         navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
+          nextEl: '.swiper-button-nexttwo',
+          prevEl: '.swiper-button-prevtwo',
         },
         // Add other Swiper configuration options as needed
       });
@@ -42,7 +41,9 @@ const ImageSliderFour = () => {
         <div class="card-card-shadow">  
         <div className="card">
  <div className="card-header card-header-latest">
+ <Link href="/team">
  <img src="/images/goimage/latest.png" alt="img 1" className="img-fluid" />
+ </Link>
  </div>
  <div class="card-body">
  <div class="card-description">
@@ -58,8 +59,125 @@ const ImageSliderFour = () => {
         <div className="swiper-slide">   
         <div class="card-card-shadow">  
         <div className="card">
- <div className="card-header">
+ <div className="card-header card-header-latest">
+ <Link href="/team">
  <img src="/images/goimage/latest.png" alt="img 1" className="img-fluid" />
+ </Link>
+ </div>
+ <div class="card-body">
+ <div class="card-description">
+ <h2>A NICE SLOGAN GOS HERE</h2>
+ <p>Our food is an art form inspired by cultures, dreams, moments and surroundings. 
+ <br/><br/>Let us translate your culinary concepts on our canvas to offer a tantalizing and unique concept.</p>
+ </div>
+ </div>
+ </div>
+ </div>
+        </div>
+
+        <div className="swiper-slide">   
+        <div class="card-card-shadow">  
+        <div className="card">
+ <div className="card-header card-header-latest">
+ <Link href="/team">
+ <img src="/images/goimage/latest.png" alt="img 1" className="img-fluid" />
+ </Link>
+ </div>
+ <div class="card-body">
+ <div class="card-description">
+ <h2>A NICE SLOGAN GOS HERE</h2>
+ <p>Our food is an art form inspired by cultures, dreams, moments and surroundings. 
+ <br/><br/>Let us translate your culinary concepts on our canvas to offer a tantalizing and unique concept.</p>
+ </div>
+ </div>
+ </div>
+ </div>
+        </div>
+
+        <div className="swiper-slide">   
+        <div class="card-card-shadow">  
+        <div className="card">
+ <div className="card-header card-header-latest">
+ <Link href="/team">
+ <img src="/images/goimage/latest.png" alt="img 1" className="img-fluid" />
+ </Link>
+ </div>
+ <div class="card-body">
+ <div class="card-description">
+ <h2>A NICE SLOGAN GOS HERE</h2>
+ <p>Our food is an art form inspired by cultures, dreams, moments and surroundings. 
+ <br/><br/>Let us translate your culinary concepts on our canvas to offer a tantalizing and unique concept.</p>
+ </div>
+ </div>
+ </div>
+ </div>
+        </div>
+
+        <div className="swiper-slide">   
+        <div class="card-card-shadow">  
+        <div className="card">
+ <div className="card-header card-header-latest">
+ <Link href="/team">
+ <img src="/images/goimage/latest.png" alt="img 1" className="img-fluid" />
+ </Link>
+ </div>
+ <div class="card-body">
+ <div class="card-description">
+ <h2>A NICE SLOGAN GOS HERE</h2>
+ <p>Our food is an art form inspired by cultures, dreams, moments and surroundings. 
+ <br/><br/>Let us translate your culinary concepts on our canvas to offer a tantalizing and unique concept.</p>
+ </div>
+ </div>
+ </div>
+ </div>
+        </div>
+
+        <div className="swiper-slide">   
+        <div class="card-card-shadow">  
+        <div className="card">
+ <div className="card-header card-header-latest">
+ <Link href="/team">
+ <img src="/images/goimage/latest.png" alt="img 1" className="img-fluid" />
+ </Link>
+ </div>
+ <div class="card-body">
+ <div class="card-description">
+ <h2>A NICE SLOGAN GOS HERE</h2>
+ <p>Our food is an art form inspired by cultures, dreams, moments and surroundings. 
+ <br/><br/>Let us translate your culinary concepts on our canvas to offer a tantalizing and unique concept.</p>
+ </div>
+ </div>
+ </div>
+ </div>
+        </div>
+        <div className="swiper-slide">   
+        <div class="card-card-shadow">  
+        <div className="card">
+ <div className="card-header card-header-latest">
+ <Link href="/team">
+ <img src="/images/goimage/latest.png" alt="img 1" className="img-fluid" />
+ </Link>
+ </div>
+ <div class="card-body">
+ <div class="card-description">
+ <h2>A NICE SLOGAN GOS HERE</h2>
+ <p>Our food is an art form inspired by cultures, dreams, moments and surroundings. 
+ <br/><br/>Let us translate your culinary concepts on our canvas to offer a tantalizing and unique concept.</p>
+ </div>
+ </div>
+ </div>
+ </div>
+        </div>
+
+
+
+        <div className="swiper-slide">   
+        <div class="card-card-shadow">  
+        <div className="card">
+ <div className="card-header">
+ <Link href="/team">
+ <img src="/images/goimage/latest.png" alt="img 1" className="img-fluid" />
+ </Link>
  </div>
  <div class="card-body">
  <div class="card-description">
@@ -75,7 +193,9 @@ const ImageSliderFour = () => {
         <div class="card-card-shadow">  
         <div className="card">
  <div className="card-header">
+ <Link href="/team">
  <img src="/images/goimage/latest.png" alt="img 1" className="img-fluid" />
+ </Link>
  </div>
  <div class="card-body">
  <div class="card-description">
@@ -91,7 +211,9 @@ const ImageSliderFour = () => {
         <div class="card-card-shadow">  
         <div className="card">
  <div className="card-header">
+ <Link href="/team">
  <img src="/images/goimage/latest.png" alt="img 1" className="img-fluid"  />
+ </Link>
  </div>
  <div class="card-body">
  <div class="card-description">
@@ -109,10 +231,10 @@ const ImageSliderFour = () => {
       </div>
       <div className="container position-relative">
       <div className="swiper-button pb-5 position-relative">
-      <div className="swiper-button-prev pb-5">
+      <div className="swiper-button-prev swiper-button-prevtwo pb-5">
         <img src="/images/goimage/prev.png" />
       </div>
-      <div className="swiper-button-next pb-5">
+      <div className="swiper-button-next swiper-button-nexttwo pb-5">
       <img src="/images/goimage/next.png" />
       </div>
       <div className=" swiper-button-next swiper-button-view pb-5">

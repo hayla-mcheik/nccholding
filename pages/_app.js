@@ -5,6 +5,7 @@ import '@popperjs/core/dist/umd/popper.min.js';
 import '../styles/styless.css';
 import 'swiper/css';
 import 'swiper/css/navigation';
+import 'aos/dist/aos.css';
 function MyApp({ Component, pageProps }) {
   return (
     <>

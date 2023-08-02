@@ -5,13 +5,12 @@ const ImageSliderThree = () => {
   useEffect(() => {
     if (typeof window.Swiper !== "undefined") {
       const swiper = new window.Swiper(".swiper-containerrr", {
-        slidesPerView: 4,
         loop: true,
         autoplay: {
           delay: 3000,
         },
         breakpoints: { // <-- Corrected syntax with curly braces
-          300: {
+          290: {
             slidesPerView: 1,
           },
           767: {

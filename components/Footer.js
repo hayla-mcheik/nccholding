@@ -5,32 +5,37 @@ const Footer = () => {
   return (
     <div>
       <div className="footer">
+  
       <div className="footer-subscribe">
-      <div>
+      <div className="container">
       <div className="footer-desc">
       <h2>STAY IN THE KNOW</h2>
-      <p>Register for our email newsletter to get the freshest takes, straight to your inbox.</p>
-      <div className="form-subsc d-flex">
+      <p className="text-light">Register for our email newsletter to get the freshest takes, straight to your inbox.</p>
+      <div className="form-subsc pt-4">
       
 
-<form action="POST"><div class="text-white">
-<div class="form-group text-white">
-<div class="d-flex  flex-sm-row gap-2">
-<HiOutlineMailOpen />
-<span><p class="pt-3 text-white">Email</p></span>
-<div class="mt-2"><div class="form-group form-group-transparent"><input type="email" class="form-control" /></div></div>
-<span class="d-flex align-items-center gap-2">
-<div>
-<p class="pt-3 text-white">Sign up</p>
-</div>
-<div>
-<img src="/images/goimage/sign-up.png" />
-</div>
-</span>
+
+<div class="col-sm-12">
+        <div class="subscribe_now">
+        
+          <form class="subscribe_form">
+            <div class="input-group d-flex">
+            <div className="d-flex">
+            <h5 className="text-light"><HiOutlineMailOpen/>Email.</h5>
+               <input type="text" class="form-control mx-2" name="email" placeholder="Enter your email" />
+               </div>
+               <div className="mt-2 mt-md-0">
+               <span class="input-group-btn mt-4 mt-md-0">
+                    <button class="btn btn-default btn-sign text-white" type="button">Sign Up</button>
+                    <img src="/images/goimage/sign-up.png" width={40} />
+               </span>
+               </div>
+            </div>
+          </form>
+          <p className="mt-5 text-light">For further details on how your personal data will be processed and how your consent can be managed, refer to the NCC Holding Privacy Notice.</p>
+        </div>
       </div>
-      </div>
-      </div>
-      </form>
+ 
 
       </div>
     </div>
@@ -41,12 +46,12 @@ const Footer = () => {
     <div className="footer-bottom">
       <div className="container">
       <div class="img-footer ">
-      <Image src="/images/goimage/img-footer.png" width={100} height={100} />
+      <img src="/images/goimage/img-footer.png" className="img-fluid"/>
       </div>
       <div class="footer-navigations pt-4 pb-4 d-lg-flex align-items-center justify-content-center ">
       <div className="mx-md-2 text-light"><a href="/about">ABOUT</a></div>
-      <div className="mx-md-2 text-light"><a href="/subsidiaries">SUBSIDIARIES</a></div><div className="mx-md-2 text-light"><a href="/services">SERVICES</a></div><div className="mx-md-2 text-light"><a href="#pur-clients">OUR CLIENTS</a></div>
-      <div className="mx-md-2 text-light"><a href="#team">TEAM</a></div><div className="mx-md-2 text-light"><a href="/insights">INSIGHT</a></div><div className="mx-md-2 text-light"><a href="#cetifications">CERTIFICATIONS</a></div><div className="mx-md-2 text-light"><a href="/careers">CAREERS</a></div><div className="mx-md-2 text-light"><a href="/contact">CONTACT</a></div><div className="mx-md-2 text-light"><a href="/privacy-posicy">PRIVACY POLICY</a></div><div className="mx-md-2 text-light"><a href="/terms-conditions">TERMS &amp; CONDITIONS</a></div>
+      <div className="mx-md-2 text-light"><a href="/subsidiaries">SUBSIDIARIES</a></div><div className="mx-md-2 text-light"><a href="#">SERVICES</a></div><div className="mx-md-2 text-light"><a href="#">OUR CLIENTS</a></div>
+      <div className="mx-md-2 text-light"><a href="/team">TEAM</a></div><div className="mx-md-2 text-light"><a href="#">INSIGHT</a></div><div className="mx-md-2 text-light"><a href="#">CERTIFICATIONS</a></div><div className="mx-md-2 text-light"><a href="/careers">CAREERS</a></div><div className="mx-md-2 text-light"><a href="/contact">CONTACT</a></div><div className="mx-md-2 text-light"><a href="#">PRIVACY POLICY</a></div><div className="mx-md-2 text-light"><a href="#">TERMS &amp; CONDITIONS</a></div>
       </div>
 
       <div className="social-media-footer d-flex align-items-center justify-content-center ">
