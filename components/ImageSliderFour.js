@@ -42,7 +42,7 @@ const ImageSliderFour = () => {
         <div className="card">
  <div className="card-header card-header-latest">
  <Link href="/team">
- <img src="/images/goimage/latest.png" alt="img 1" className="img-fluid" />
+ <img src="/images/goimage/latest-news.png" alt="img 1" className="img-fluid" />
  </Link>
  </div>
  <div class="card-body">
@@ -61,7 +61,7 @@ const ImageSliderFour = () => {
         <div className="card">
  <div className="card-header card-header-latest">
  <Link href="/team">
- <img src="/images/goimage/latest.png" alt="img 1" className="img-fluid" />
+ <img src="/images/goimage/latest-news.png" alt="img 1" className="img-fluid" />
  </Link>
  </div>
  <div class="card-body">
@@ -80,7 +80,7 @@ const ImageSliderFour = () => {
         <div className="card">
  <div className="card-header card-header-latest">
  <Link href="/team">
- <img src="/images/goimage/latest.png" alt="img 1" className="img-fluid" />
+ <img src="/images/goimage/latest-news.png" alt="img 1" className="img-fluid" />
  </Link>
  </div>
  <div class="card-body">
@@ -99,7 +99,7 @@ const ImageSliderFour = () => {
         <div className="card">
  <div className="card-header card-header-latest">
  <Link href="/team">
- <img src="/images/goimage/latest.png" alt="img 1" className="img-fluid" />
+ <img src="/images/goimage/latest-news.png" alt="img 1" className="img-fluid" />
  </Link>
  </div>
  <div class="card-body">
@@ -118,7 +118,7 @@ const ImageSliderFour = () => {
         <div className="card">
  <div className="card-header card-header-latest">
  <Link href="/team">
- <img src="/images/goimage/latest.png" alt="img 1" className="img-fluid" />
+ <img src="/images/goimage/latest-news.png" alt="img 1" className="img-fluid" />
  </Link>
  </div>
  <div class="card-body">
@@ -137,7 +137,7 @@ const ImageSliderFour = () => {
         <div className="card">
  <div className="card-header card-header-latest">
  <Link href="/team">
- <img src="/images/goimage/latest.png" alt="img 1" className="img-fluid" />
+ <img src="/images/goimage/latest-news.png" alt="img 1" className="img-fluid" />
  </Link>
  </div>
  <div class="card-body">
@@ -155,7 +155,7 @@ const ImageSliderFour = () => {
         <div className="card">
  <div className="card-header card-header-latest">
  <Link href="/team">
- <img src="/images/goimage/latest.png" alt="img 1" className="img-fluid" />
+ <img src="/images/goimage/latest-news.png" alt="img 1" className="img-fluid" />
  </Link>
  </div>
  <div class="card-body">
@@ -176,7 +176,7 @@ const ImageSliderFour = () => {
         <div className="card">
  <div className="card-header">
  <Link href="/team">
- <img src="/images/goimage/latest.png" alt="img 1" className="img-fluid" />
+ <img src="/images/goimage/latest-news.png" alt="img 1" className="img-fluid" />
  </Link>
  </div>
  <div class="card-body">
@@ -194,7 +194,7 @@ const ImageSliderFour = () => {
         <div className="card">
  <div className="card-header">
  <Link href="/team">
- <img src="/images/goimage/latest.png" alt="img 1" className="img-fluid" />
+ <img src="/images/goimage/latest-news.png" alt="img 1" className="img-fluid" />
  </Link>
  </div>
  <div class="card-body">
@@ -212,7 +212,7 @@ const ImageSliderFour = () => {
         <div className="card">
  <div className="card-header">
  <Link href="/team">
- <img src="/images/goimage/latest.png" alt="img 1" className="img-fluid"  />
+ <img src="/images/goimage/latest-news.png" alt="img 1" className="img-fluid"  />
  </Link>
  </div>
  <div class="card-body">
@@ -238,7 +238,9 @@ const ImageSliderFour = () => {
       <img src="/images/goimage/next.png" />
       </div>
       <div className=" swiper-button-next swiper-button-view pb-5">
+      <Link href="/news">
  <h4>View All</h4>
+ </Link>
       </div>
       </div>
       </div>

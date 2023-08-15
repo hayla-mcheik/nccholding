@@ -13,13 +13,12 @@ export default function About() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Navbar />
-      <section>
+      <section class="img-landing-relative">
       <div className="landing-screen">
 <div className="container">
 <div className="row">
 <div className="landing">
-<div className="text-landing" data-aos="fade-up"
-     data-aos-duration="1000">
+<div className="text-landing">
 <h2>ABOUT US</h2>
 <h5>Since 1990, NCC Holding has been at the forefront of life support services across the UAE & the Middle East, with our owned companies in Kuwait, Iraq and Kingdom of Saudi Arabia we try to expand our partnerships and experiences to grow our market share. 
 <br/> <br/>We are pioneers in our specialties including: Industrial & Corporate Catering, Facilities Management, Construction, Food Distribution & Supply, Specialist Dietary Services, Retail, Food & Beverage. 
@@ -28,8 +27,7 @@ export default function About() {
 </div>
 </div>
 <div className="box-landing mt-5" >
-<div class="row mt-5" data-aos="zoom-in"
-     data-aos-duration="1000">
+<div class="row mt-5">
 <div class="col-md-8 col-12 d-md-flex d-content mx-auto justify-content-center">
 <div class="col-md-3 col-4">
 <div class="box-image">
@@ -58,8 +56,7 @@ export default function About() {
 </div>
 </div>
 
-<div class="social-landing position-absolute d-md-block d-none " data-aos="fade-up"
-     data-aos-duration="1000">
+<div class="social-landing position-absolute d-md-block d-none ">
 <div class="social-media d-block fixed">
 <div class="social-media-icon">
 <BiLogoTwitter />
@@ -86,8 +83,7 @@ export default function About() {
 <div class="container">
 <div class="row">
 <div class="col-md-5 col-12">
-<div class="description-about mt-5" data-aos="fade-up"
-     data-aos-duration="1000">
+<div class="description-about mt-5">
 <div className="mt-5">
 <h2 className="mt-5 mb-4">OUR VALUES.</h2>
 <p>We have built the profiles of the world’s best-known entrepreneurs.
@@ -104,8 +100,7 @@ export default function About() {
 </div>
 
 <div class="col-md-5 col-12">
-<div class="description-about mt-5" data-aos="fade-up"
-     data-aos-duration="1000">
+<div class="description-about mt-5">
 <div className="mt-5">
 <h2 className="mt-5 mb-4">CLIENT SATISFACTION</h2>
 <p>Client satisfaction is of paramount importance to us and we ensure to achieve that with the highest level of capability. 
@@ -131,8 +126,7 @@ export default function About() {
 <div class="slider-services slider-two slider-milestone slider-two pt-40 pb-40">
 <div class="container">
 <div class="row">
-<div class="home-title-desc" data-aos="fade-up"
-     data-aos-duration="1000">
+<div class="home-title-desc">
      <h2>OUR MILESTONES</h2>
      <p>Our main goal is to become a perfect partner for our client’s businesses & to adapt quickly to evolving new market developments.</p>
       </div>
@@ -148,8 +142,7 @@ export default function About() {
 
 
 <section>
-<div class="slider-services slider-two mt-40 mb-40" data-aos="fade-up"
-     data-aos-duration="1000">
+<div class="slider-services slider-two mt-40 mb-40">
 <div class="container">
 <div class="row">
 <div class="home-title-desc">

@@ -23,8 +23,7 @@ export default function News() {
 
 <div className="latest-news mt-5">
 <div className="container">
-<div className="row" data-aos="fade-up"
-     data-aos-duration="1000">
+<div className="row">
 <div className="col-md-4 col-12">
 <div class="img-latest-news">
 <img src="/images/goimage/latest-news.png" className="img-fluid" />

@@ -8,6 +8,8 @@ import ImageSliderFour from '../components/ImageSliderFour';
 import ImageSliderThree from '../components/ImageSliderThree';
 import Footer from '../components/Footer';
 import AOS from 'aos'
+
+
 export default function Home() {
   useEffect(() => {
     AOS.init({
@@ -19,15 +21,16 @@ export default function Home() {
       <Head>
         <title>Home Page</title>
         <link rel='icon' href='/favicon.ico' />
+        
       </Head>
+
       <Navbar />
-      <section>
+      <section class="img-landing-relative">
       <div className="landing-screen">
 <div className="container">
 <div className="row">
 <div className="landing">
-<div className="text-landing"  data-aos="fade-up"
-     data-aos-duration="1000">
+<div className="text-landing">
 <h2>LEADERS 
 IN QUALITY 
 PIONEERS IN 
@@ -37,8 +40,7 @@ OUR SPECIALTIES</h2>
 </div>
 </div>
 <div className="box-landing mt-5">
-<div class="row" data-aos="zoom-in"
-     data-aos-duration="1000">
+<div class="row">
 <div class="col-md-8 col-12 d-md-flex d-content mx-auto">
 <div class="col-md-3 col-6">
 <div class="box-image">

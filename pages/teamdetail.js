@@ -16,7 +16,7 @@ export default function Teamdetail() {
 <nav aria-label="breadcrumb pt-5">
   <ol class="breadcrumb pt-5">
     <li class="breadcrumb-item text-uppercase" ><a href="/">Home</a></li>
-    <li class="breadcrumb-item text-uppercase"><a href="#">TEAM MANAGEMENT</a></li>
+    <li class="breadcrumb-item text-uppercase"><a href="/team">TEAM MANAGEMENT</a></li>
     <li class="breadcrumb-item active text-uppercase" aria-current="page">SLUG</li>
   </ol>
 </nav>
@@ -24,8 +24,7 @@ export default function Teamdetail() {
 
 <div className="sub-contents">
 <div class="container">
-<div className="row" data-aos="fade-up"
-     data-aos-duration="1000">
+<div className="row">
 <div className="col-md-6 col-12">
 <div className="img-sub pt-5 pb-5">
 <img src="/images/goimage/team-img.png" className="img-fluid"/>

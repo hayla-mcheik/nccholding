@@ -16,16 +16,14 @@ export default function Subsidiaries() {
 <nav aria-label="breadcrumb pt-5">
   <ol class="breadcrumb pt-5">
     <li class="breadcrumb-item text-uppercase" ><a href="/">Home</a></li>
-    <li class="breadcrumb-item text-uppercase"><a href="#">Subsidiaries</a></li>
-    <li class="breadcrumb-item active text-uppercase" aria-current="page">Slug</li>
+    <li class="breadcrumb-item active text-uppercase" aria-current="page">Subsidiaries</li>
   </ol>
 </nav>
 </div>
 
 <div className="sub-contents">
 <div class="container">
-<div className="row" data-aos="fade-up"
-     data-aos-duration="1000">
+<div className="row">
 <div className="col-md-4 col-12">
 <div className="img-sub pt-5 pb-5">
 <img src="/images/goimage/subfour.svg" className="img-fluid" />
@@ -38,7 +36,7 @@ export default function Subsidiaries() {
 
       <div className="sub-li">
       <div class="services-include"><p>Our Services Include:</p><ul><li class="b-c-items">Dietary Consultation</li><li class="b-c-items">Customized Healthy Meal Plan Catering</li><li class="b-c-items">Nursery &amp; School Catering</li><li class="b-c-items">Clinic &amp; Hospitality</li></ul>
-      <button type="button" class="btn  btn-primary-border mt-5 mb-5 p-2" ><a>For More Information   |   Visit Website</a></button></div>
+      <button type="button" class="btn-primary-border mt-5 mb-5" ><a>For More Information   |   Visit Website</a></button></div>
       </div>
 
 </div>

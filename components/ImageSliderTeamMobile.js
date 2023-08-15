@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import 'swiper/css/navigation';
 import Link from 'next/link'
-const ImageSliderTeam = () => {
+const ImageSliderTeamMobile = () => {
   useEffect(() => {
     if (typeof window.Swiper !== "undefined") {
       const swiper = new window.Swiper(".swiper-containerrrrrrr", {
@@ -43,148 +43,11 @@ const ImageSliderTeam = () => {
     
     <div className="swiper-containerrrrrrr custom-swiper-container pt-20 pb-20">
       <div className="swiper-wrapper">
-      <div className="swiper-slide">   
-        <div className="team-member">
-        <Link href="/teamdetail">
-<img src="/images/goimage/teamone.png" className="img-fluid"/>
-</Link>
-<div className="team-text">
-<Link href="/teamdetail">
-<h2>Full Name</h2>
-</Link>
-<p>Title</p>
-</div>
-</div>
-        </div>
         <div className="swiper-slide">   
         <div className="team-member">
-        <Link href="/teamdetail">
 <img src="/images/goimage/teamone.png" className="img-fluid"/>
-</Link>
 <div className="team-text">
-<Link href="/teamdetail">
 <h2>Full Name</h2>
-</Link>
-<p>Title</p>
-</div>
-</div>
-        </div>
-        <div className="swiper-slide">   
-        <div className="team-member">
-        <Link href="/teamdetail">
-<img src="/images/goimage/teamone.png" className="img-fluid"/>
-</Link>
-<div className="team-text">
-<Link href="/teamdetail">
-<h2>Full Name</h2>
-</Link>
-<p>Title</p>
-</div>
-</div>
-        </div>
-        <div className="swiper-slide">   
-        <div className="team-member">
-        <Link href="/teamdetail">
-<img src="/images/goimage/teamone.png" className="img-fluid"/>
-</Link>
-<div className="team-text">
-<Link href="/teamdetail">
-<h2>Full Name</h2>
-</Link>
-<p>Title</p>
-</div>
-</div>
-        </div>
-        <div className="swiper-slide">   
-        <div className="team-member">
-        <Link href="/teamdetail">
-<img src="/images/goimage/teamone.png" className="img-fluid"/>
-</Link>
-<div className="team-text">
-<Link href="/teamdetail">
-<h2>Full Name</h2>
-</Link>
-<p>Title</p>
-</div>
-</div>
-        </div>
-        <div className="swiper-slide">   
-        <div className="team-member">
-        <Link href="/teamdetail">
-<img src="/images/goimage/teamone.png" className="img-fluid"/>
-</Link>
-<div className="team-text">
-<Link href="/teamdetail">
-<h2>Full Name</h2>
-</Link>
-<p>Title</p>
-</div>
-</div>
-        </div>
-        <div className="swiper-slide">   
-        <div className="team-member">
-        <Link href="/teamdetail">
-<img src="/images/goimage/teamone.png" className="img-fluid"/>
-</Link>
-<div className="team-text">
-<Link href="/teamdetail">
-<h2>Full Name</h2>
-</Link>
-<p>Title</p>
-</div>
-</div>
-        </div>
-        <div className="swiper-slide">   
-        <div className="team-member">
-        <Link href="/teamdetail">
-<img src="/images/goimage/teamone.png" className="img-fluid"/>
-</Link>
-<div className="team-text">
-<Link href="/teamdetail">
-<h2>Full Name</h2>
-</Link>
-<p>Title</p>
-</div>
-</div>
-        </div>
-        <div className="swiper-slide">   
-        <div className="team-member">
-        <Link href="/teamdetail">
-<img src="/images/goimage/teamone.png" className="img-fluid"/>
-</Link>
-<div className="team-text">
-<Link href="/teamdetail">
-<h2>Full Name</h2>
-</Link>
-<p>Title</p>
-</div>
-</div>
-        </div>
-
-
-
-        <div className="swiper-slide">   
-        <div className="team-member">
-        <Link href="/teamdetail">
-<img src="/images/goimage/teamone.png" className="img-fluid"/>
-</Link>
-<div className="team-text">
-<Link href="/teamdetail">
-<h2>Full Name</h2>
-</Link>
-<p>Title</p>
-</div>
-</div>
-        </div>
-        <div className="swiper-slide">   
-        <div className="team-member">
-        <Link href="/teamdetail">
-<img src="/images/goimage/teamone.png" className="img-fluid"/>
-</Link>
-<div className="team-text">
-<Link href="/teamdetail">
-<h2>Full Name</h2>
-</Link>
 <p>Title</p>
 </div>
 </div>
@@ -192,175 +55,167 @@ const ImageSliderTeam = () => {
 
         <div className="swiper-slide">   
         <div className="team-member">
-        <Link href="/teamdetail">
 <img src="/images/goimage/teamone.png" className="img-fluid"/>
-</Link>
 <div className="team-text">
-<Link href="/teamdetail">
 <h2>Full Name</h2>
-</Link>
+<p>Title</p>
+</div>
+</div>
+        </div>
+        <div className="swiper-slide">   
+        <div className="team-member">
+<img src="/images/goimage/teamone.png" className="img-fluid"/>
+<div className="team-text">
+<h2>Full Name</h2>
+<p>Title</p>
+</div>
+</div>
+        </div>
+        <div className="swiper-slide">   
+        <div className="team-member">
+<img src="/images/goimage/teamone.png" className="img-fluid"/>
+<div className="team-text">
+<h2>Full Name</h2>
 <p>Title</p>
 </div>
 </div>
         </div>
 
+        <div className="swiper-slide">   
+        <div className="team-member">
+<img src="/images/goimage/teamone.png" className="img-fluid"/>
+<div className="team-text">
+<h2>Full Name</h2>
+<p>Title</p>
+</div>
+</div>
+        </div>
+        <div className="swiper-slide">   
+        <div className="team-member">
+<img src="/images/goimage/teamone.png" className="img-fluid"/>
+<div className="team-text">
+<h2>Full Name</h2>
+<p>Title</p>
+</div>
+</div>
+        </div>
+        <div className="swiper-slide">   
+        <div className="team-member">
+<img src="/images/goimage/teamone.png" className="img-fluid"/>
+<div className="team-text">
+<h2>Full Name</h2>
+<p>Title</p>
+</div>
+</div>
+        </div>
 
         <div className="swiper-slide">   
         <div className="team-member">
-        <Link href="/teamdetail">
 <img src="/images/goimage/teamone.png" className="img-fluid"/>
-</Link>
 <div className="team-text">
-<Link href="/teamdetail">
 <h2>Full Name</h2>
-</Link>
 <p>Title</p>
 </div>
 </div>
         </div>
         <div className="swiper-slide">   
         <div className="team-member">
-        <Link href="/teamdetail">
 <img src="/images/goimage/teamone.png" className="img-fluid"/>
-</Link>
 <div className="team-text">
-<Link href="/teamdetail">
 <h2>Full Name</h2>
-</Link>
 <p>Title</p>
 </div>
 </div>
         </div>
         <div className="swiper-slide">   
         <div className="team-member">
-        <Link href="/teamdetail">
 <img src="/images/goimage/teamone.png" className="img-fluid"/>
-</Link>
 <div className="team-text">
-<Link href="/teamdetail">
 <h2>Full Name</h2>
-</Link>
 <p>Title</p>
 </div>
 </div>
         </div>
         <div className="swiper-slide">   
         <div className="team-member">
-        <Link href="/teamdetail">
 <img src="/images/goimage/teamone.png" className="img-fluid"/>
-</Link>
 <div className="team-text">
-<Link href="/teamdetail">
 <h2>Full Name</h2>
-</Link>
 <p>Title</p>
 </div>
 </div>
         </div>
+
         <div className="swiper-slide">   
         <div className="team-member">
-        <Link href="/teamdetail">
 <img src="/images/goimage/teamone.png" className="img-fluid"/>
-</Link>
 <div className="team-text">
-<Link href="/teamdetail">
 <h2>Full Name</h2>
-</Link>
 <p>Title</p>
 </div>
 </div>
         </div>
+
         <div className="swiper-slide">   
         <div className="team-member">
-        <Link href="/teamdetail">
 <img src="/images/goimage/teamone.png" className="img-fluid"/>
-</Link>
 <div className="team-text">
-<Link href="/teamdetail">
 <h2>Full Name</h2>
-</Link>
 <p>Title</p>
 </div>
 </div>
         </div>
+
         <div className="swiper-slide">   
         <div className="team-member">
-        <Link href="/teamdetail">
 <img src="/images/goimage/teamone.png" className="img-fluid"/>
-</Link>
 <div className="team-text">
-<Link href="/teamdetail">
 <h2>Full Name</h2>
-</Link>
 <p>Title</p>
 </div>
 </div>
         </div>
+
         <div className="swiper-slide">   
         <div className="team-member">
-        <Link href="/teamdetail">
 <img src="/images/goimage/teamone.png" className="img-fluid"/>
-</Link>
 <div className="team-text">
-<Link href="/teamdetail">
 <h2>Full Name</h2>
-</Link>
 <p>Title</p>
 </div>
 </div>
         </div>
+
         <div className="swiper-slide">   
         <div className="team-member">
-        <Link href="/teamdetail">
 <img src="/images/goimage/teamone.png" className="img-fluid"/>
-</Link>
 <div className="team-text">
-<Link href="/teamdetail">
 <h2>Full Name</h2>
-</Link>
 <p>Title</p>
 </div>
 </div>
         </div>
+
         <div className="swiper-slide">   
         <div className="team-member">
-        <Link href="/teamdetail">
 <img src="/images/goimage/teamone.png" className="img-fluid"/>
-</Link>
 <div className="team-text">
-<Link href="/teamdetail">
 <h2>Full Name</h2>
-</Link>
 <p>Title</p>
 </div>
 </div>
         </div>
+
         <div className="swiper-slide">   
         <div className="team-member">
-        <Link href="/teamdetail">
 <img src="/images/goimage/teamone.png" className="img-fluid"/>
-</Link>
 <div className="team-text">
-<Link href="/teamdetail">
 <h2>Full Name</h2>
-</Link>
 <p>Title</p>
 </div>
 </div>
         </div>
-        <div className="swiper-slide">   
-        <div className="team-member">
-        <Link href="/teamdetail">
-<img src="/images/goimage/teamone.png" className="img-fluid"/>
-</Link>
-<div className="team-text">
-<Link href="/teamdetail">
-<h2>Full Name</h2>
-</Link>
-<p>Title</p>
-</div>
-</div>
-        </div>
+
 
         {/* Add more slides here */}
       </div>
@@ -373,9 +228,6 @@ const ImageSliderTeam = () => {
       <img src="/images/goimage/next.png" />
       </div>
       <div className=" swiper-button-next swiper-button-view pb-5">
-      <Link href="/team">
- <h4>View All</h4>
- </Link>
       </div>
       </div>
       </div>
@@ -383,4 +235,4 @@ const ImageSliderTeam = () => {
   );
 };
 
-export default ImageSliderTeam;
+export default ImageSliderTeamMobile;

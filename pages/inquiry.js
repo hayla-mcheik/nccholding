@@ -35,7 +35,7 @@ export default function Inquiry() {
 <div class="col-md-6 mb-3"><input type="number" class="form-control no-arrows" placeholder="Phone Number" /></div></div>
 <div><textarea class="form-control" placeholder="Message" rows="7" cols="50"></textarea>
 </div><div class="d-flex justify-content-center mt-3">
-<button type="submit" class="btn btn-light btn-block btn-extendeded" >
+<button type="submit" class="btn-light btn-block btn-extendeded" >
 Send Message</button>
 </div>
 </form>

@@ -25,8 +25,8 @@ const ImageSliderThree = () => {
   
         },
         navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
+          nextEl: '.swiper-button-nextthree',
+          prevEl: '.swiper-button-prevthree',
         },
         // Add other Swiper configuration options as needed
       });

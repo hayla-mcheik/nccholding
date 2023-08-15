@@ -2,11 +2,12 @@
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
-  output: 'export',
-  // Optional: Add a trailing slash to all paths `/about` -> `/about/`
-  // trailingSlash: true,
-  // Optional: Change the output directory `out` -> `dist`
-  // distDir: 'dist',
-}
- 
-module.exports = nextConfig
+  output: 'export', // Corrected the output option value to use string 'export'
+  reactStrictMode: true,
+  images: {
+    loader: 'imgix',
+    path: '/',
+  }
+};
+
+module.exports = nextConfig;

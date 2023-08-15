@@ -23,8 +23,7 @@ export default function Subsidary() {
 
 <div className="subsidary pb-5 pt-5">
 <div className="container">
-<div className="row" data-aos="fade-up"
-     data-aos-duration="1000">
+<div className="row">
 <div className="col-md-4 col-lg-3 col-12 mb-4">
 <div class="card-card-shadow">  
         <div className="card">

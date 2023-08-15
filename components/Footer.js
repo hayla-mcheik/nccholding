@@ -26,7 +26,7 @@ const Footer = () => {
                </div>
                <div className="mt-2 mt-md-0">
                <span class="input-group-btn mt-4 mt-md-0">
-                    <button class="btn btn-default btn-sign text-white" type="button">Sign Up</button>
+                    <h5 class="text-white" type="button">Sign Up</h5>
                     <img src="/images/goimage/sign-up.png" width={40} />
                </span>
                </div>

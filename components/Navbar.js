@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
+import { useRouter } from 'next/router';
 import styles from '../styles/navbar.module.css'; 
 import styless from '../styles/styless.css'; 
 import { Squash as Hamburger } from 'hamburger-react'
@@ -10,6 +11,7 @@ const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState(false)
   const [sticky, setSticky] = useState(false);
   const [showSubsidiaries, setShowSubsidiaries] = useState(false); 
+  const router = useRouter();
   const handleShowNavbar = () => {
     setShowNavbar(!showNavbar)
   }
@@ -51,17 +53,19 @@ const Navbar = () => {
         </div>
         <div className="d-lg-flex d-none ">
         <ul className="d-md-flex align-items-center menu-nav">
-        <li className="mx-5"><Link href="/" className="text-hover">Home</Link></li>
-        <li className="mx-5"><Link href="/about" className="text-hover" >About Us</Link></li>
-        <li className="mx-5"><Link href="/services" className="text-hover">Services</Link></li>
-        <li className="ml-50">
-          <Link href="/inquiry">
-            <button class="btn btn-primary-border">
-            INQUIRE NOW
-            </button>
-          </Link>
-        </li>
-        </ul>
+  <li className={`mx-5 ${router.pathname === '/' ? 'active' : ''}`}>
+    <Link href="/" className="text-hover">Home</Link>
+  </li>
+  <li className={`mx-5 ${router.pathname === '/about' ? 'active' : ''}`}>
+    <Link href="/about" className="text-hover">About Us</Link>
+  </li>
+  <li className={`mx-5`}>
+    <Link href="#" className="text-hover">Services</Link>
+  </li>
+  <li className="ml-50">
+    <Link href="/inquiry"><button className="btn-border mx-md-3" fdprocessedid="vuapce">INQUIRE NOW</button></Link>
+  </li>
+</ul>
         </div>
   
         <div className="menu-icon" onClick={handleShowNavbar}>
@@ -105,32 +109,32 @@ const Navbar = () => {
                   <div class="ul-items d-md-none d-block">
 <ul className={showSubsidiaries ? 'show' : 'hide'}>
                     <li>
-                      <Link  onClick={handleShowNavbar} href="/subsidaries">
+                      <Link  onClick={handleShowNavbar} href="/subsidiaries">
                       SLIM N LITE
                       </Link>
                     </li>
                     <li>
-                      <Link onClick={handleShowNavbar} href="/subsidaries">
+                    <Link  onClick={handleShowNavbar} href="/subsidiaries">
                       NATIONAL CATERING COMPANY
                       </Link>
                     </li>
                     <li>
-                      <Link onClick={handleShowNavbar} href="/subsidaries">
+                    <Link  onClick={handleShowNavbar} href="/subsidiaries">
                       TAMWEEN
                       </Link>
                     </li>     
                          <li>
-                      <Link onClick={handleShowNavbar} href="/subsidaries">
+                         <Link  onClick={handleShowNavbar} href="/subsidiaries">
                       FRESH PLANET
                       </Link>
                     </li>   
                              <li>
-                      <Link onClick={handleShowNavbar} href="/subsidaries">
+                             <Link  onClick={handleShowNavbar} href="/subsidiaries">
                       AMAN
                       </Link>
                     </li>   
                                    <li>
-                      <Link onClick={handleShowNavbar} href="/subsidaries">
+                                   <Link  onClick={handleShowNavbar} href="/subsidiaries">
                       GRAKO & GECKO
                       </Link>
                     </li>
@@ -171,32 +175,32 @@ const Navbar = () => {
 <div class="ul-items d-md-block d-none">
 <ul className={showSubsidiaries ? 'show' : 'hide'}>
                     <li>
-                      <Link onClick={handleShowNavbar} href="/subsidariesone">
+                    <Link  onClick={handleShowNavbar} href="/subsidiaries">
                       SLIM N LITE
                       </Link>
                     </li>
                     <li>
-                      <Link onClick={handleShowNavbar} href="/subsidariestwo">
+                    <Link  onClick={handleShowNavbar} href="/subsidiaries">
                       NATIONAL CATERING COMPANY
                       </Link>
                     </li>
                     <li>
-                      <Link onClick={handleShowNavbar} href="/subsidariesthree">
+                    <Link  onClick={handleShowNavbar} href="/subsidiaries">
                       TAMWEEN
                       </Link>
                     </li>     
                          <li>
-                      <Link onClick={handleShowNavbar} href="/subsidariesthree">
+                         <Link  onClick={handleShowNavbar} href="/subsidiaries">
                       FRESH PLANET
                       </Link>
                     </li>   
                              <li>
-                      <Link onClick={handleShowNavbar} href="/subsidariesthree">
+                             <Link  onClick={handleShowNavbar} href="/subsidiaries">
                       AMAN
                       </Link>
                     </li>   
                                    <li>
-                      <Link onClick={handleShowNavbar} href="/subsidariesthree">
+                                   <Link  onClick={handleShowNavbar} href="/subsidiaries">
                       GRAKO & GECKO
                       </Link>
                     </li>
@@ -224,12 +228,12 @@ const Navbar = () => {
 <div class="container">
 <div class="button-border-button">
 <Link href="/inquiry">
-<button class="btn btn-border mx-md-3">
+<button class="btn-border mx-md-3">
 INQUIRE NOW
 </button>
 </Link>
    <Link href="/quote">
-<button class="btn btn-border mx-md-3">
+<button class="btn-border mx-md-3">
 GET A QUOTE
 </button>
 </Link>

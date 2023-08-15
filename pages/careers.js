@@ -141,12 +141,12 @@ const Careers = () => {
         return (
           <div className="ptt form-group">
             <step>
-              <h5 className="jobs-txt">Where in the world are you based?</h5>
+              <h5 className="jobs-txt">Thanks, Maher . What’s your email?</h5>
               <div className="step">
                 <input
                   className="form-control"
                   type="text"
-                  placeholder="City or Country"
+                  placeholder="Email is required*"
                   value={city} name="city" onChange={(e) => { setCity(e.target.value) }}
                 />
               </div>
